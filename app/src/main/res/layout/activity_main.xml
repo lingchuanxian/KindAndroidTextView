@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:orientation="vertical">
+
+    <cn.com.kind.android.kindtextview.KindTextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@color/kind_main"
+        app:sLeftTvDrawableLeft="@mipmap/ic_toolbar_back"
+        app:sLeftTvDrawableWidth="25dp"
+        app:sLeftTvDrawableHeight="25dp"
+        app:sLeftTextString="返回"
+        app:sLeftTextColor="@drawable/bg_text_selectot"
+        app:sLeftTextGravity="center"
+        app:sShapeSolidColor="@color/kind_main"
+        app:sBackgroundDrawableRes="@color/kind_main"/>
+
+</LinearLayout>
